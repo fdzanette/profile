@@ -20,7 +20,7 @@ h1 {
 h2, h3 {
   font-family: Open-sans;
   font-size: 17px;
-  line-height: 1.5;
+  line-height: 1.5em;
 }
 
 p {
@@ -29,7 +29,7 @@ p {
 
 a {
   text-decoration: none;
-  line-height: 1.5;
+  line-height: 1.5em;
 }
 
 a:hover {
@@ -73,5 +73,5 @@ a:hover {
 #movies {
   font-weight: 300;
   font-size: 15px;
-  line-height: 1.6em;
+  line-height: 1.45em;
 }
