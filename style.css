@@ -37,9 +37,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.check-me {
+  color: #DD5555;
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+
 #img-profile {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 3px solid #cccccc;
 }
 
@@ -78,11 +84,41 @@ a:hover {
 
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 120px;
   left: 0;
   top: 0;
   bottom: 0;
+  background-color: rgb(50, 50, 50);
 }
 #page-content {
-  margin-left: 300px;
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+.fa-file-video {
+  color: lightgray;
+  margin: 8px;
+  font-size: 24px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+
+.fa-info-circle {
+  color: lightgray;
+  margin: 8px;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+#footer a {
+  color: red;
+}
+
+#footer a:hover {
+  text-decoration: none;
+  font-weight: bold;
 }
