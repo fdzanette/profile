@@ -8,10 +8,12 @@ body {
 }
 
 .size-image {
-  width: 100px;
-  height: 150px;
+  width: 180px;
+  height: 220px;
   padding-right: 15px;
+  margin-bottom: 15px;
 }
+
 
 h1 {
   color: #DD5555;
