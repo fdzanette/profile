@@ -55,9 +55,9 @@ a:hover {
 
 .card {
     background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 8px;
+    border-radius: 2px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -74,6 +74,10 @@ a:hover {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+.list-inline li a:hover {
+  text-decoration: none;
 }
 
 #movies {
@@ -113,6 +117,10 @@ a:hover {
 
 ul {
   list-style: none;
+}
+
+#footer {
+  font-size: 15px;
 }
 
 #footer a {
