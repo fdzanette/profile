@@ -2,30 +2,44 @@ body {
   background-color: rgb(210,210,210);
   font-family: Times;
   color: #7d7d7d;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6em;
 
 }
 
 .size-image {
-  width: 180px;
-  height: 220px;
+  width: 320px;
+  height: 360px;
   padding-right: 15px;
   margin-bottom: 15px;
 }
 
+a:visited {
+  text-decoration: none;
+}
+
+hr {
+    max-width: 170px;
+    border-width: 3px;
+    border-color: #f05f40;
+    border-top: 1px solid #eeeeee;
+    margin-bottom: 25px;
+}
 
 h1 {
-  color: #DD5555;
-  font-size: 22px;
+  color: rgb(80, 80, 80);
+  font-size: 24px;
+  margin-bottom: 0px;
 }
 h2, h3 {
   font-family: Open-sans;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.5em;
+  margin-bottom: 0px;
 }
 
 p {
+  font-size: 18px;
   text-align: justify;
 }
 
@@ -34,13 +48,12 @@ a {
   line-height: 1.5em;
 }
 
-a:hover {
-
-  text-decoration: underline;
+td {
+  vertical-align: top;
 }
 
 .check-me {
-  color: #DD5555;
+  /*color: #DD5555;*/
   margin-top: -10px;
   margin-bottom: -5px;
 }
@@ -61,6 +74,10 @@ a:hover {
     margin-bottom: 8px;
     border-radius: 2px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+  /*font-size: 24px;*/
 }
 
 .container {
@@ -84,7 +101,13 @@ a:hover {
 
 #movies {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.45em;
+}
+
+#projects {
+  font-weight: 300;
+  font-size: 16px;
   line-height: 1.45em;
 }
 
@@ -105,13 +128,19 @@ a:hover {
 .fa-file-video {
   color: lightgray;
   margin: 8px;
+  margin-left: 10px;
   font-size: 24px;
-  margin-top: 30px;
   text-decoration: none;
 }
 
 
 .fa-info-circle {
+  color: lightgray;
+  margin: 8px;
+  font-size: 24px;
+}
+
+.fa-briefcase {
   color: lightgray;
   margin: 8px;
   font-size: 24px;
@@ -132,4 +161,28 @@ ul {
 #footer a:hover {
   text-decoration: none;
   font-weight: bold;
+}
+
+i.fa.fa-phone {
+  color: #666699;
+}
+
+.searchnrock {
+  text-align: center;
+}
+
+.schools {
+  text-align: center;
+}
+
+
+.schools a {
+  text-align: left;
+}
+.searchnrock a {
+  text-align: right;
+}
+
+.searchnrock p {
+  text-align: right;
 }
