@@ -28,7 +28,7 @@ hr {
 
 h1 {
   color: rgb(80, 80, 80);
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 0px;
 }
 h2, h3 {
@@ -53,8 +53,7 @@ td {
 }
 
 .check-me {
-  /*color: #DD5555;*/
-  margin-top: -10px;
+  margin-top: 3px;
   margin-bottom: -5px;
 }
 
@@ -151,7 +150,9 @@ ul {
 }
 
 #footer {
+  max-height: 105px;
   font-size: 15px;
+  margin-left: 65px;
 }
 
 #footer a {
@@ -179,10 +180,33 @@ i.fa.fa-phone {
 .schools a {
   text-align: left;
 }
+
+.schools a > h3 {
+  color: gray;
+  font-weight: bold;
+  margin-bottom: -12px;
+}
+
+.schools a > h3:hover {
+  color: black;
+  font-weight: bold;
+}
+
 .searchnrock a {
   text-align: right;
 }
 
 .searchnrock p {
-  text-align: right;
+}
+
+.searchnrock a > h3 {
+  color: gray;
+  font-weight: bold;
+  margin-bottom: -12px;
+}
+
+
+.searchnrock a > h3:hover {
+  color: black;
+  font-weight: bold;
 }
